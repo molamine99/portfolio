@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <script src="app.js" defer></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="mail.js"></script>
+    <script src="envoi.js" defer></script> 
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Prof<span>i</span>l</a>
+        <ul class="navlist">
+            <li> <a href="#home" class="active">Home</a></li>
+            <li> <a href="#propos">A Propos</a></li>
+            <li> <a href="#competence">Compétences</a></li>
+            <li> <a href="#portfolio">Portfolio</a></li>
+            <li> <a href="#contact">Contact</a></li>
+        </ul>
+        <div class="bx bx-menu" id="menu-icon">
+
+        </div>
+    </header>
+    <section class="home" id="home">
+        <div class="home-text">
+            <div class="slide">
+                <span class="one">Bonjour</span>
+                <span class="two">Je suis</span>
+            </div>
+            <h1>Momo Lamine</h1>
+            <h3>Développeur<span> Web</span></h3>
+            <div class="button">
+                <a href="portfolio/cvmolamine.pdf" class="btn" download="cv_momo">Telecharger mon Cv</a>
+            </div>
+        </div>
+    </section>
+    <section class="propos" id="propos">
+        <div class="propos-img">
+            <img src="images/momo.png" alt="images">
+        </div>
+        <div class="propos-text">
+            <h2>A Propos de <span>Moi</span></h2>
+            <h4>Développeur Web</h4>
+            <p>Je suis actuellement en première année de formation notamment en développement web a la web académie Epitech.Je suis désormais à la recherche d’
+            un contrat d’apprentissage d’une durée de 12 mois pour la rentrée 2024 -2025 sur unn rythme de 3 semaines en entreprise car désireux de m’investir totalement dans de véritables projets en y mettant toute mon envie d’apprendre et toute mon énergie.</p>
+            <a href="#" class="btn">En Savoir Plus</a>
+        </div>
+    </section>
+    <section class="competence" id="competence">
+        <div class="main-text">
+            <p>Mon Expertise</p>
+            <h2><span>Mes</span> Compétences</h2>
+        </div>
+        <div class="competence-container">
+            <div class="portfolio-container">
+                <div class="logo-icons">
+                    <img src="images/html.svg" alt="spotify">
+                    <div class="layer">
+                    </div>
+                </div>
+                <div class="logo-icons">
+                    <img src="images/css.svg" alt="twitter">
+                    <div class="layer">
+                    </div>
+                </div>
+                <div class="logo-icons">
+                    <img src="images/php.svg" alt="cloneABC">
+                    <div class="layer">
+                    </div>
+                </div>
+                <div class="logo-icons">
+                    <img src="images/javascript.svg" alt="safy">
+                    <div class="layer">
+                    </div>
+                </div>
+                <div class="logo-icons">
+                    <img src="images/sql.svg" alt="puissance4">
+                    <div class="layer">
+                    </div>
+                </div>
+                <div class="logo-icons">
+                    <img src="images/docker.svg" alt="">
+                    <div class="layer">
+                    </div>
+                </div>
+            </div>
+    </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="main-text">
+            <p>Portfolio</p>
+            <h2><span>Mes</span> Projets</h2>
+        </div>
+
+        <div class="portfolio-container">
+            <div class="row">
+                <img src="images/spotify.png" alt="spotify">
+                <div class="layer">
+                    <h5>Visuel</h5>
+                    <p>Creation de Clone-Spotify</p>
+                </div>
+            </div>
+            <div class="row">
+                <img src="images/twitter.png" alt="twitter">
+                <div class="layer">
+                    <h5>Visuel</h5>
+                    <p>Création de Clone-twitter</p>
+                </div>
+            </div>
+            <div class="row">
+                <img src="images/cloneABC.png" alt="cloneABC">
+                <div class="layer">
+                    <h5>Visuel</h5>
+                    <p>Clone-Hotel-ABC</p>
+                </div>
+            </div>
+            <div class="row">
+                <img src="images/safy.png" alt="safy">
+                <div class="layer">
+                    <h5>Visuel</h5>
+                    <p>Clone-site Safy</p>
+                </div>
+            </div>
+            <div class="row">
+                <img src="images/puissance4.png" alt="puissance4">
+                <div class="layer">
+                    <h5>Visuel</h5>
+                    <p>Creation de puissance4</p>
+                </div>
+            </div>
+            <div class="row">
+                <img src="images/clone-meetic.png" alt="">
+                <div class="layer">
+                    <h5>Visuel</h5>
+                    <p>clone-meetic</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contactez<span> Moi</span></h2>
+            <h4>Si avez un projet a realiser.</h4>
+            <p>je suis un Développeur Web pouvant créer un site Web dans les normes.</p>
+            <div class="list">
+                <ul>
+                <li> <a href="#">0768044064</a></li>
+                <li> <a href="#">molamine.dosso@gmail.com</a></li>
+                <li> <a href="#">like Partage & Abonne toi</a></li>
+            </ul>
+            </div>
+            <div class="contact-icons">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="#"><i class='bx bxl-snapchat' ></i></a>
+            </div>
+        </div>
+
+        <div class="formulaire-contact">
+            <form id="form">
+                <input type="text" name="Nom" placeholder="Nom" required>
+                <input type="text" name="Email" placeholder="Email" required>
+                <input type="tel" name="tel" placeholder="Numero" required>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Ecrivez votre message" required></textarea>
+                <input type="submit" value="envoyer" class="submit">
+            </form>
+        </div>
+    </section>
+
+    <section class="fin">
+        <h2>Momo Lamine</h2>
+        <div class="fin-text">
+            <p>Copyright © 2024 by Momo Lamine All Rights Reserved.</p>
+        </div>
+        <div class="haut">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+    </section>
+</body>
+
+</html>
